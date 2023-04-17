@@ -39,8 +39,8 @@ body {
   font-weight: 800;
   letter-spacing: var(--ls);
   position: absolute;
-  top: 30%;
-  left: 25%;
+  top: 70%;
+  left: 24%;
   overflow: hidden;
   background: var(--bg);
   margin: 0;
@@ -482,27 +482,27 @@ button svg {
 }
 
 #text1Title, #text2Title {
-	position: fixed;
-  top: -250%;
-	width: 100%;
-	display: inline-block;
-	font-family: 'Raleway', sans-serif;
-	font-size: 70pt;
-	text-align: center;
-	user-select: none;
-  overflow: hidden;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 10vw;
+    text-align: center;
+    user-select: none;
+    overflow: hidden;
 }
 
 .galaxy-button1 {
   position: absolute;
-  top: 50%;
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .galaxy-button2 {
   position: absolute;
-  top: 70%;
+  top: 120%;
   left: 50%;
   transform: translateX(-50%);
 }
