@@ -498,7 +498,6 @@ button svg {
   top: 50%;
   left: 50%;
   transform: translateX(-50%);
-  overflow: hidden;
 }
 
 .galaxy-button2 {
@@ -506,5 +505,4 @@ button svg {
   top: 70%;
   left: 50%;
   transform: translateX(-50%);
-  overflow: hidden;
 }
