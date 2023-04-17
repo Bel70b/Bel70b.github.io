@@ -39,7 +39,7 @@ body {
   font-weight: 800;
   letter-spacing: var(--ls);
   position: absolute;
-  top: 70%;
+  top: 30%;
   left: 25%;
   overflow: hidden;
   background: var(--bg);
@@ -295,9 +295,6 @@ button:active {
 	overflow: hidden;
 	opacity: var(--active);
 	transition: opacity var(--transition);
-	/*transform-style: preserve-3d;
-	perspective: 100vmin;*/
-/*	opacity: 0.25;*/
 }
 
 .galaxy__ring {
@@ -485,25 +482,29 @@ button svg {
 }
 
 #text1Title, #text2Title {
-	position: absolute;
+	position: fixed;
+  top: -250%;
 	width: 100%;
 	display: inline-block;
 	font-family: 'Raleway', sans-serif;
-	font-size: 80pt;
+	font-size: 70pt;
 	text-align: center;
 	user-select: none;
+  overflow: hidden;
 }
 
 .galaxy-button1 {
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%);
+  overflow: hidden;
 }
 
 .galaxy-button2 {
   position: absolute;
-  top: 120%;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%);
+  overflow: hidden;
 }
