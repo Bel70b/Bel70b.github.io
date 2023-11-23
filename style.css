@@ -527,3 +527,17 @@ button svg {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.galaxy-button6 {
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.galaxy-button7 {
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  transform: translateX(-50%);
+}
